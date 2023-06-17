@@ -1,0 +1,43 @@
+/* Header section */
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 7rem;
+   width: 100%;
+}
+
+#logo {
+   width: 4rem;
+   height: 4rem;
+}
+
+#logo-name {
+   font-family: radley, sans-serif;
+   font-style: italic;
+   margin-left: 0.5rem;
+   font-weight: lighter;
+   font-size: 28pt;
+}
+
+#logo-section {
+   display: flex;
+   align-items: center;
+   margin-left: 1rem;
+}
+
+#navigation {
+   display: flex;
+   width: 22rem;
+}
+
+#links {
+   margin: auto;
+}
+
+li {
+   list-style: none;
+   display: inline-block;
+   margin: auto 1rem;
+   font-size: 16pt;
+}

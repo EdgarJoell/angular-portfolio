@@ -1,0 +1,29 @@
+/* Footer Section */
+footer {
+   height: 10rem;
+   width: 100%;
+   background-color: #033576;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#footer-image {
+   height: 10rem;
+   width: 25rem;
+}
+
+.footer-connecting {
+   height: 5rem;
+   width: 5rem;
+   margin-right: 1rem;
+}
+
+#connect {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   margin-right: 3rem;
+   color: white;
+}
