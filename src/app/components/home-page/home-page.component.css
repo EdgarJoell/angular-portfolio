@@ -1,0 +1,224 @@
+/* Hero Section */
+#hero {
+   width: 100%;
+   height: 37rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-left: -1rem;
+}
+
+#edgar-video {
+   max-width: 65rem;
+   min-width: 10rem;
+   height: 23rem;
+   margin-top: -2rem;
+}
+
+#hero-wording {
+   margin-top: -9rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.hero-p {
+   font-size: 27pt;
+   max-width: 65rem;
+   min-width: 20rem;
+   text-align: center;
+   margin-top: 3rem;
+}
+
+#btn-to-about {
+   width: 15rem;
+   height: 4rem;
+   background-color: #033576;
+   color: white;
+   border-radius: 30px;
+   font-size: x-large;
+   margin: auto;
+}
+
+/* About section */
+#about {
+   background-color: #033576;
+   color: white;
+   width: 100%;
+   height: 35rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+#about-wordings {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#about-img {
+   width: 48rem;
+   height: 12.5rem;
+}
+
+.about-p {
+   font-size: 18pt;
+   font-weight: 100;
+   max-width: 65rem;
+   min-width: 20rem;   
+   text-align: center;
+   margin-top: -2rem;
+   font-weight: 200;
+   line-height: 1.4;
+}
+
+/* Projects Section */
+#projects {
+   width: 100%;
+   max-height: 55rem;
+   min-height: 12rem;
+}
+
+#projects-board {
+   max-width: 70rem;
+   min-width: 15rem;;
+   max-height: 55rem;
+   min-height: 12rem;
+   border-radius: 90px;
+   margin: -9rem auto auto auto;
+   background-color: #EBEBEB;
+   z-index: 3;
+}
+
+.grid-images {
+   width: 18rem;
+   height: 20rem;
+}
+
+#first-row {
+   width: 100%;
+   height: 20rem;
+   z-index: 5;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#second-row {
+   width: 100%;
+   height: 15rem;
+   border-top: 5px solid white;
+   border-bottom: 5px solid white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#third-row {
+   width: 100%;
+   height: 20rem;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.projects-board-p {
+   max-width: 55rem;
+   min-width: 15rem;
+   height: 13rem;
+   text-align: center;
+   font-size: 19pt;
+   margin: auto;
+}
+
+.blocks {
+   width: 23.3rem;
+   height: 20rem;
+}
+
+.block-headers {
+   text-align: center;
+   font-size: 22pt;
+   font-family: radley, sans-serif;
+   font-weight: lighter;
+}
+
+.block-p {
+   text-align: center;
+   font-size: 19pt;
+}
+
+.neg-margin { 
+   margin-top: -1.75rem;
+}
+
+#middle-block {
+   border-left: 5px solid white;
+   border-right: 5px solid white;
+}
+
+/* Featured Projects Section */
+#featured-projects {
+   width: 100%;
+   height: 72rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+#featured-header {
+   width: 40rem;
+}
+
+#featured-video {
+   height: 20rem;
+   width: 40rem;
+   margin: auto;
+}
+
+#featured-h3 {
+   text-align: center;
+   color: #033576;
+   font-size: 18pt;
+   margin-top: -5rem;
+   font-weight: lighter;
+   margin-bottom: 3rem;
+}
+
+#featured-projects-board {
+   width: 70rem;
+   height: 35rem;
+   background-color: #EBEBEB;
+   border-radius: 50px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.featured-image {
+   /* width: 1fr; */
+   /* height: 35rem; */
+   width: 33%;
+   height: auto;
+}
+
+.more-p {
+   font-size: 16pt;
+   margin-top: 2rem;
+   text-align: center;
+}
+
+#more-btn {
+   width: 15rem;
+   height: 4rem;
+   border-radius: 40px;
+   background-color: #033576;
+   color: white;
+   font-family: radley, sans-serif;
+   font-size: 20pt;
+   text-align: center;
+}
