@@ -9,15 +9,21 @@
    margin-left: -1rem;
 }
 
-#edgar-video {
+#edgar-video-container {
    max-width: 65rem;
    min-width: 10rem;
-   height: 23rem;
+   max-height: 23rem;
+   min-width: 10rem;
    margin-top: -2rem;
 }
 
+#edgar-video {
+   width: 100%;
+   height: auto;
+}
+
 #hero-wording {
-   margin-top: -9rem;
+   margin-top: -7rem;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -61,9 +67,16 @@
    align-items: center;
 }
 
+#img-container {
+   max-width: 48rem;
+   min-width: 10rem;
+   max-height: 12.5rem;
+   min-height: 4rem;
+}
+
 #about-img {
-   width: 48rem;
-   height: 12.5rem;
+   width: 100%;
+   height: auto;
 }
 
 .about-p {
@@ -171,12 +184,13 @@
 }
 
 #featured-header {
-   width: 40rem;
+   max-width: 40rem;
+   min-width: 10rem;
 }
 
 #featured-video {
    height: 20rem;
-   width: 40rem;
+   width: 100%;
    margin: auto;
 }
 
@@ -187,11 +201,15 @@
    margin-top: -5rem;
    font-weight: lighter;
    margin-bottom: 3rem;
+   max-width: 40rem;
+   min-width: 10rem;
 }
 
 #featured-projects-board {
-   width: 70rem;
-   height: 35rem;
+   max-width: 70rem;
+   min-width: 20rem;
+   max-height: 35rem;
+   min-height: 7rem;
    background-color: #EBEBEB;
    border-radius: 50px;
    display: flex;
@@ -202,12 +220,12 @@
 .featured-image {
    /* width: 1fr; */
    /* height: 35rem; */
-   width: 33%;
+   width: 30%;
    height: auto;
 }
 
 .more-p {
-   font-size: 16pt;
+   font-size: 16;
    margin-top: 2rem;
    text-align: center;
 }
@@ -221,4 +239,29 @@
    font-family: radley, sans-serif;
    font-size: 20pt;
    text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+   .about-p, .block-p, #featured-h3, .projects-board-p {
+      font-size: 15pt;
+   }
+
+   #more-btn {
+      width: 10rem;
+      height: 2rem;
+      font-size: 12pt;
+   }
+
+   .more-p {
+      font-size: 10pt;
+   }
+
+   .hero-p {
+      font-size: 20pt;
+   }
+
+   #btn-to-about {
+      width: 10rem;
+      height: 3rem;
+   }
 }
