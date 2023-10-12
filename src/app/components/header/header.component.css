@@ -3,13 +3,15 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   height: 7rem;
+   height: 10vh;
    width: 100%;
 }
 
 #logo {
-   width: 4rem;
-   height: 4rem;
+   width: 10%;
+   height: 10%;
+   max-width: 20rem;
+   max-height: 20rem;
 }
 
 #logo-name {
@@ -18,6 +20,28 @@ header {
    margin-left: 0.5rem;
    font-weight: lighter;
    font-size: 28pt;
+}
+
+@media screen and (max-width: 350px) {
+   #logo-name {
+      font-size: 12pt;
+   }
+
+   a > li {
+      font-size: 4pt;
+   }
+}
+
+@media screen and (min-width: 351px) and (max-width: 800px) {
+   #logo-name {
+      font-size: 14pt;
+   }
+
+   
+
+   a > li {
+      font-size: 12pt;
+   }
 }
 
 #logo-section {
@@ -31,6 +55,10 @@ header {
    width: 22rem;
 }
 
+ul {
+   padding: 0;
+}
+
 #links {
    margin: auto;
 }
@@ -38,6 +66,6 @@ header {
 li {
    list-style: none;
    display: inline-block;
-   margin: auto 1rem;
+   margin: auto 0.5rem;
    font-size: 16pt;
 }
