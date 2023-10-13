@@ -2,10 +2,15 @@
 footer {
    width: 100%;
    background-color: #033576;
+   margin-top: 20px;
+}
+
+#container {
+   max-width: 1400px;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-top: 20px;
+   margin: auto;
 }
 
 #footer-image {

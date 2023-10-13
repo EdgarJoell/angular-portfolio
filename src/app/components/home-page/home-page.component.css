@@ -1,6 +1,7 @@
 /* Hero Section */
 #hero {
    width: 100%;
+   max-width: 1400px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -47,9 +48,8 @@
 
 #link-to-about {
    width: 25%;
-   /* height: 5vh; */
    margin: auto;
-   max-width: 300px;
+   max-width: 200px;
    margin: auto;
 }
 
@@ -60,6 +60,7 @@
    color: white;
    border-radius: 30px;
    margin: auto;
+   padding: 10% ;
 }
 
 @media screen and (min-width: 700px) {
@@ -73,9 +74,14 @@
    background-color: #033576;
    color: white;
    width: 100%;
+}
+
+#about-container {
    display: flex;
    flex-direction: column;
    align-items: center;
+   max-width: 1400px;
+   margin: auto;
 }
 
 #about-img {
@@ -124,6 +130,14 @@
    margin: -13% auto auto auto;
    border-radius: 90px;
    background-color: #EBEBEB;
+   max-width: 1200px;
+   /* margin: auto; */
+}
+
+@media screen and (min-width: 1300px) {
+   #projects { 
+      margin-top: -10rem;
+   }
 }
 
 .grid-images {
@@ -225,6 +239,8 @@
    flex-direction: column;
    justify-content: flex-start;
    align-items: center;
+   max-width: 1400px;
+   margin: auto;
 }
 
 #featured-header {
@@ -274,11 +290,13 @@
    font-family: radley, sans-serif;
    font-size: 20pt;
    text-align: center;
+   padding: 5%;
 }
 
 #projects-link {
    width: 30%;
    height: 10%;
+   max-width: 300px;
 }
 
 @media screen and (max-width: 450px) {
