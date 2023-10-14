@@ -1,6 +1,6 @@
 /* About Section */
 #about-edgar-full {
-   height: 92.5rem;
+   /* height: 92.5rem; */
    width: 100%;
    display: flex;
    flex-direction: column;
@@ -8,23 +8,94 @@
    align-items: center;
 }
 
+#section-one-container {
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+#section-one {
+   width: 55%;
+   margin: auto;
+}
+
 #about-img {
-   width: 50rem;
-   height: 12.5rem;
+   width: 100%;
 }
 
 #profile-picture {
-   width: 25rem;
-   height: 25rem;
+   width: 30%;
+   max-width: 30rem;
    border-radius: 50%;
 }
 
 #section-two {
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
-   width: 65rem;
-   height: 30rem;
+   max-width: 65rem;
+   width: 80%;
+}
+
+@media screen and (max-width: 450px) {
+   #section-two {
+      display: flex;
+      flex-direction: column-reverse;
+   }
+
+   #section-one {
+      width: 80%;
+   }
+
+   #section-two > p, #section-three > p, #section-four > #credit {
+      font-size: 13pt;
+   }
+
+   #profile-picture {
+      width: 65%;
+   }
+
+   #section-four > #quote {
+      font-size: 16pt;
+   }
+
+   #resume-link > #resume-btn {
+      font-size: 14pt;
+      padding: 3%;
+   }
+}
+
+@media screen and (min-width: 1001px) {
+   #section-two > p {
+      padding-right: 40px;
+   }
+}
+
+@media screen and (min-width: 451px) and (max-width: 1000px) {
+   #section-two {
+      display: flex;
+      flex-direction: column-reverse;
+   }
+
+   #section-one {
+      width: 60%;
+   }
+
+   #section-two > p, #section-three > p, #section-four > #credit {
+      font-size: 16pt;
+   }
+
+   #profile-picture {
+      width: 45%;
+   }
+
+   #section-four > #quote {
+      font-size: 12pt;
+   }
+
+   #resume-link > #resume-btn {
+      font-size: 16pt;
+      padding: 3%;
+   }
 }
 
 .p {
@@ -35,15 +106,14 @@
 }
 
 #section-three {
-   width: 65rem;
-   height: 22.5rem;
-   margin-top: -2rem;
-
+   max-width: 65rem;
+   width: 80%;
+   margin-top: -1rem;
 }
 
 #section-four {
-   width: 65rem;
-   height: 22rem;
+   max-width: 65rem;
+   width: 80%;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -51,25 +121,32 @@
 }
 
 #quote {
-   font-size: 30pt;
+   font-size: 20pt;
    text-align: center;
    font-style: italic;
    color: #033576;
 }
 
 #credit {
-   margin-top: -2.5rem;
-   font-size: 30pt;
+   margin-top: -1rem;
+   font-size: 22pt;
    text-align: center;
    font-style: italic;
    color: #033576;
 }
 
+#resume-link {
+   max-width: 20rem;
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 #resume-btn {
-   width: 20rem;
+   width: 100%;
    border-radius: 30px;
    margin: auto;
-   height: 4rem;
    background-color: #033576;
    color: white;
    font-size: 24pt;
