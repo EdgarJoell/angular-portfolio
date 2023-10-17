@@ -219,7 +219,7 @@
    }
 
    .hero-p {
-      margin-top: 10px;
+      margin-top: 25px;
       font-size: 16pt;
    }
 
@@ -275,6 +275,7 @@
 
    #featured-h3 {
       font-size: 12pt;
+      width: 90%;
    }
 
    #featured-projects-board {

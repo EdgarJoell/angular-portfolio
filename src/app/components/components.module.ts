@@ -6,6 +6,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { ProjectsPageComponent } from './projects-page/projects-page.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { DropdownDirective } from './header/dropdown.directive';
 
 
 
@@ -15,7 +16,8 @@ import { AppRoutingModule } from '../app-routing.module';
     FooterComponent,
     HomePageComponent,
     ProjectsPageComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    DropdownDirective
   ],
   imports: [
     CommonModule,
