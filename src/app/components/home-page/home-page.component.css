@@ -10,12 +10,12 @@
 }
 
 #edgar-video {
-   width: 75%;
+   width: 85%;
    height: auto;
 }
 
 #hero-wording {
-   margin-top: -10%;
+   /* margin-top: -10%; */
    display: flex;
    flex-direction: column;
    justify-content: center;
