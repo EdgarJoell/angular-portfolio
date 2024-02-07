@@ -6,7 +6,7 @@ footer {
 }
 
 #container {
-   max-width: 1400px;
+   /* max-width: 1400px; */
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -14,10 +14,12 @@ footer {
 }
 
 #footer-image {
+   max-width: 400px;
    width: 40%;
 }
 
 a {
+   max-width: 200px;
    width: 15%;
 }
 
