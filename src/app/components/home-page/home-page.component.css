@@ -188,8 +188,10 @@ a:hover {
    align-items: center;
 }
 
-#featured-video {
-   width: 50%;
+#featured-heading {
+   width: 60%;
+   margin-top: 5%;
+   margin-right: 2%;
 }
 
 #featured-h3 {
