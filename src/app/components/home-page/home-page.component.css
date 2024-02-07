@@ -37,7 +37,7 @@ a {
    background-color: #033576;
    color: white;
    border-radius: 30px;
-   padding: 2%;
+   padding: 1%;
    text-align: center;
    font-size: 18pt;
    border: 2px black solid;
@@ -239,6 +239,10 @@ a:hover {
       width: 90%;
    }
 
+   a {
+      font-size: 10pt;
+   }
+
    .hero-p {
       margin-top: 35px;
       font-size: 16pt;
@@ -310,6 +314,10 @@ a:hover {
 }
 
 @media screen and (min-width: 451px) and (max-width: 800px) {
+   a {
+      font-size: 12pt;
+   }
+
    #featured-h3 {
       font-size: 14pt;
    }
