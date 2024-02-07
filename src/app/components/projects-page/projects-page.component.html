@@ -5,30 +5,12 @@
 </div>
 <div id="section-two">
    <div id="projects-board">
-      <div class="board">
-         <h2 class="board-heading">Formula Zero</h2>
-         <p class="board-paragraph">Full-stack Formula 1 inspired racing application using Angular, HTML, CSS, TypeScript, and Bootstrap. Back-end development utilized Java, Spring Boot, H2 Database, and RestAPI.</p>
-         <a class="github-link" href="https://github.com/EdgarJoell/formula-zero-front" target="_blank"><button class="board-btn">View On GitHub</button></a>
-      </div>
-      <div class="board">
-         <h2 class="board-heading">Real-Estate API</h2>
-         <p class="board-paragraph">Implemented a full-stack simulated real-estate API using Java, Spring Boot, and H2 Database for the back-end REST API, featuring advanced features like authorization and JWT token authorization.</p>
-         <a class="github-link" href="https://github.com/EdgarJoell/real-estate-api" target="_blank"><button class="board-btn">View On GitHub</button></a>
-      </div>
-      <div class="board">
-         <h2 class="board-heading">Wayfarer Travel</h2>
-         <p class="board-paragraph">A dynamic mock travel agency website, leveraging Angular, HTML, CSS, UX/UI Wireframes, and TypeScript. Completed in collaboration as a group project.</p>
-         <a class="github-link" href="https://github.com/EdgarJoell/wayfarer-project" target="_blank"><button class="board-btn">View on GitHub</button></a>
-      </div>
-      <div class="board">
-         <h2 class="board-heading">Tic-Tac-Toe!</h2>
-         <p class="board-paragraph">Developed an interactive tic-tac-toe game using JavaScript, HTML, and CSS, featuring an interactive board, turn updates, and game result tracking.</p>
-         <a class="github-link" href="https://github.com/EdgarJoell/Tic-Tac-Toe-Project" target="_blank"><button class="board-btn">View on GitHub</button></a>
-      </div>
-      <div class="board">
-         <h2 class="board-heading">Rock, Paper, Scissors!</h2>
-         <p class="board-paragraph">Developed a Java console application based on 'Rock, Paper, Scissors', utilizing object-oriented programming principles for an engaging user experience.</p>
-         <a class="github-link" href="https://github.com/EdgarJoell/java-mini-project" target="_blank"><button class="board-btn">View on GitHub</button></a>
+      <div class="board" *ngFor="let project of projects">
+         <h2 class="board-heading">{{project.title}}</h2>
+         <p class="board-paragraph">{{project.description}}</p>
+         <a class="github-link" href="{{project.link}}" target="_blank">
+            <button class="board-btn">View on GitHub</button>
+         </a>
       </div>
       <div class="board">
          <img src="assets/ComingSoon.png" class="board-img">
