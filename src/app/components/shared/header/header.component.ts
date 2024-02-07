@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
+  scrollToTop(): void {
+    window.scrollTo(0, 0);
+  }
 }
