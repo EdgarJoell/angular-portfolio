@@ -5,6 +5,7 @@ import { ProjectsPageComponent } from './projects-page/projects-page.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { SharedModule } from './shared/shared.module';
+import { ContactPageComponent } from './contact-page/contact-page.component';
 
 
 
@@ -13,6 +14,7 @@ import { SharedModule } from './shared/shared.module';
     HomePageComponent,
     ProjectsPageComponent,
     AboutPageComponent,
+    ContactPageComponent,
   ],
   imports: [
     CommonModule,
@@ -23,7 +25,8 @@ import { SharedModule } from './shared/shared.module';
     HomePageComponent,
     ProjectsPageComponent,
     AboutPageComponent,
-    SharedModule
+    SharedModule,
+    ContactPageComponent
   ]
 })
 export class ComponentsModule { }
