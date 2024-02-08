@@ -4,7 +4,6 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   /* max-width: 1400px; */
    margin: 5px auto auto auto;
 }
 
@@ -32,32 +31,10 @@ header {
    width: 22rem;
 }
 
-#navigation-two {
-   visibility: hidden;
-   width: 25%;
-   margin-right: 30px;
-}
-
-.dropdown {
-   visibility: hidden;
-   position: fixed;
-   height: 70px;
-   margin-top: 5px;
-   border: 2px solid black;
-}
-
 .links {
    visibility: hidden;
    margin-top: -10px;
    background-color: white;
-}
-
-.show{
-   visibility: visible;
-}
-
-.hide {
-   visibility: hidden;
 }
 
 #menu-img {
@@ -78,29 +55,25 @@ li {
    display: inline-block;
    margin: auto 0.5rem;
    font-size: 16pt;
+   transition-property: color;
+   transition-duration: 250ms;
+   transition-timing-function: ease-out;
+}
+
+li:hover {
+   color: rgb(25, 190, 245);
+   transition-property: color;
+   transition-duration: 250ms;
+   transition-timing-function: ease-out;
 }
 
 @media screen and (max-width: 450px) {
    #navigation-one {
-      /* visibility: hidden; */
       width: 25%;
    }
 
-   /* #navigation-two {
-      visibility: visible;
-   } */
-
    ul {
       text-align: right;
-   }
-
-   .dropbtn {
-      width: 50%;
-      margin: auto;
-   }
-
-   #myDropdown {
-      visibility: hidden;
    }
 
    #logo {
