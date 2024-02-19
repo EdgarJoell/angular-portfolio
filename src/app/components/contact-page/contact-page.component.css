@@ -1,0 +1,85 @@
+#blue-container {
+   background-color: #033576;
+   color: white;
+   font-family: radley, sans-serif;
+   width: 100%;
+   padding-bottom: 30%;
+}
+
+h2 {
+   font-family: radley, sans-serif;
+   font-size: 30pt;
+   font-style: italic;
+}
+
+#contact-form {
+   margin: -25% auto 5% auto;
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+   max-width: 1500px;
+}
+
+#words-section {
+   width: 40%;
+   color: white;
+}
+
+#form-section {
+   width: 40%;
+}
+
+h1 {
+   margin: auto auto 2% 10%;
+   color: white;
+   font-weight: 100;
+   font-style: italic;
+   font-size: 27pt;
+}
+
+.block {
+   display: block;
+}
+
+#last-name {
+   margin-left: 1%;
+}
+
+#first-name, #last-name {
+   width: 37.5%;
+}
+
+#message {
+   height: 10%;
+}
+
+input, select, textarea {
+   margin-bottom: 2%;
+   margin-left: 10%;
+   padding: 1.5%;
+   width: 80%;
+   font-size: 16pt;
+   border-radius: 20px;
+}
+
+form {
+   background-color: #ebebeb;
+   border-radius: 30px;
+   padding: 5%;
+}
+
+button {
+   width: 20%;
+   max-width: 200px;
+   padding: 2%;
+   max-height: 50px;
+   margin-left: 40%;
+   background-color: #033576;
+   color: white;
+   border-radius: 20px;
+   font-family: carlito, sans-serif;
+}
+
+button:hover {
+   cursor: pointer;
+}

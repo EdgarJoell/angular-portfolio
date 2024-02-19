@@ -6,6 +6,8 @@ import { AboutPageComponent } from './about-page/about-page.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { SharedModule } from './shared/shared.module';
 import { ContactPageComponent } from './contact-page/contact-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -19,7 +21,9 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
   imports: [
     CommonModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   exports: [
     HomePageComponent,

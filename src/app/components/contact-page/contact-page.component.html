@@ -1,1 +1,25 @@
-<p>contact-page works!</p>
+<div id="blue-container">
+</div>
+<div id="contact-form">
+   <div id="words-section">
+      <h2>Got a major project you want to work together on?</h2>
+      <h2>Let's Connect!</h2>
+   </div>
+   <div id="form-section">
+      <form [formGroup]="contactForm" (ngSubmit)="onSubmit(this.contactForm)">
+            <input id="first-name" type="text" formControlName="firstName" placeholder="First Name...">
+            <input id="last-name" type="text" formControlName="lastName" placeholder="Last Name...">
+            <input id="email" type="text" class="block" formControlName="email" placeholder="Email...">
+            <select id="role" type="text" class="block" formControlName="role" placeholder="Choose One...">
+               <option value="" disabled selected>Select An Option</option>
+               <option value="Recruiter">Recruiter</option>
+               <option value="Hiring Manager">Hiring Manager</option>
+               <option value="Project Sponsor">Project Sponsor</option>
+               <option value="Other">Other...</option>
+            </select>   
+            <textarea id="message" type="text" class="block" formControlName="message" cols="200" rows="10" placeholder="Message..."></textarea>
+         <button type="submit"
+         [disabled]="!contactForm.valid">Send</button>
+      </form>
+   </div>
+</div>
