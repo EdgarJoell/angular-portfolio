@@ -1,4 +1,9 @@
 /* Projects Section */
+a {
+   width: 50%;
+   padding: 3% 0;
+}
+
 #section-one {
    width: 100%;
    padding-bottom: 20%;

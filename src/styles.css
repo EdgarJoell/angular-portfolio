@@ -8,17 +8,30 @@ body {
    margin: auto;
 }
 
-a:link {
-   text-decoration: none;
-   color: #033576;
- }
- 
- a:visited {
-   text-decoration: none;
-   color: #033576;
- }
- 
- a:active {
-   text-decoration: underline;
-   color: #033576;
- }
+ .btn-click {
+  width: 20%;
+  margin: auto;
+  max-width: 200px;
+  margin: auto;
+  background-color: #033576;
+  color: white;
+  border-radius: 30px;
+  padding: 1%;
+  text-align: center;
+  font-size: 18pt;
+  border: 2px black solid;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: ease-out;
+  text-decoration: none;
+}
+
+.btn-click:hover {
+  text-decoration: none;
+  background-color: white;
+  color: #033576;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: ease-out;
+}
