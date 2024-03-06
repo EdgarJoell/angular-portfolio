@@ -10,9 +10,8 @@ body {
 
  .btn-click {
   width: 20%;
-  margin: auto;
+  margin: 0 auto;
   max-width: 200px;
-  margin: auto;
   background-color: #033576;
   color: white;
   border-radius: 30px;
