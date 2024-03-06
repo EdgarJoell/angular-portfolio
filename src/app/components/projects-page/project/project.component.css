@@ -4,12 +4,6 @@
    font-family: carlito, sans-serif;
 }
 
-.flex-container {
-   display: flex;
-   flex-direction: row;
-   
-}
-
 .blue {
    background-color: #033576;
    color: white;
@@ -92,4 +86,66 @@ img {
 #github-container > p {
    font-size: 20pt;
    margin-bottom: 3%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1400px) {
+   .flexed {
+      flex-wrap: nowrap;
+      flex-direction: column;
+   }
+
+   .image-card {
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 800px) {
+   #hero-h1 {
+      font-size: 40pt;
+   }
+   
+   #hero-h3 { 
+      font-size: 16pt;
+   }
+
+   .section-heading {
+      font-size: 25pt;
+   }
+
+   .image-paragraph {
+      font-size: 12pt;
+   }
+
+   #project-built-container > p {
+      font-size: 14pt;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   #hero-h1 {
+      font-size: 40pt;
+   }
+   
+   #hero-h3 { 
+      font-size: 12pt;
+   }
+
+   .section-heading {
+      font-size: 20pt;
+   }
+
+   .image-paragraph {
+      font-size: 12pt;
+   }
+
+   #project-built-container > p {
+      font-size: 12pt;
+   }
+
+   #github-container > p {
+      font-size: 12pt;
+      width: 80%;
+      margin: 0 auto 3% auto;
+   }
 }
