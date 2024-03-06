@@ -105,7 +105,7 @@ a {
    }
 
    #projects-p {
-      font-size: 16pt;
+      font-size: 14pt;
    }
 
    #projects-board {
@@ -116,6 +116,7 @@ a {
 
    .board {
       width: 80%;
+      min-height: 350px;
    }
 
    .board-btn {
@@ -136,6 +137,10 @@ a {
 
    .board-paragraph {
       font-size: 14pt;
+   }
+
+   .board-img {
+      width: 75%;
    }
 }
 
@@ -165,11 +170,20 @@ a {
    }
 
    .board-heading {
-      font-size: 24pt;
+      font-size: 28pt;
    }
 
    .board-paragraph {
-      font-size: 14pt;
+      font-size: 20pt;
+   }
+
+   .board {
+      min-height: 425px;
+      margin: 5% auto;
+   }
+
+   .board-img { 
+      width: 75%;
    }
 }
 
