@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { AppComponent } from 'src/app/app.component';
+import { GlobalFuncsService } from 'src/app/service/global-funcs.service';
 
 @Component({
   selector: 'app-header',
@@ -6,7 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  scrollToTop(): void {
-    window.scrollTo(0, 0);
-  }
+  constructor(public globalService: GlobalFuncsService) {}
+  
 }
