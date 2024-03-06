@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+   font-family: carlito, sans-serif;
+}
+
+body {
+   width: 100%;
+   margin: auto;
+}
+
+ .btn-click {
+  width: 20%;
+  margin: 0 auto;
+  max-width: 200px;
+  background-color: #033576;
+  color: white;
+  border-radius: 30px;
+  padding: 1%;
+  text-align: center;
+  font-size: 18pt;
+  border: 2px black solid;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: ease-out;
+  text-decoration: none;
+}
+
+.btn-click:hover {
+  text-decoration: none;
+  background-color: white;
+  color: #033576;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: ease-out;
+}

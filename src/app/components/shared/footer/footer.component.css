@@ -1,0 +1,35 @@
+/* Footer Section */
+footer {
+   width: 100%;
+   background-color: #033576;
+   margin-top: 20px;
+}
+
+#container {
+   /* max-width: 1400px; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+}
+
+#footer-image {
+   max-width: 400px;
+   width: 40%;
+}
+
+a {
+   max-width: 200px;
+   width: 15%;
+}
+
+.footer-connecting {
+   width: 100%;
+}
+
+#footer-connect {
+   display: flex;
+   justify-content: flex-end;
+   color: white;
+   margin-right: 1%;
+}

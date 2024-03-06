@@ -1,0 +1,22 @@
+<!-- Projects Page -->
+<div id="section-one">
+   <h1 id="projects-header">Projects Gallery</h1>
+   <p id="projects-p">Whether it's as a Full Stack, Back End, or Front End developer, I bring a comprehensive skill set to the table. I thrive on crafting intuitive user interfaces, implementing robust back-end functionalities, and bridging the gap between design and functionality. My languages include but are not limited to: Java, JavaScript, HTML, CSS, TypeScript.</p>
+</div>
+<div id="section-two">
+   <div id="projects-board">
+      <div class="board" *ngFor="let project of projects">
+         <h2 class="board-heading">{{project.title}}</h2>
+         <p class="board-paragraph">{{project.description}}</p>
+         <a class="btn-click" routerLink="/projects/{{ project.id }}/{{ project.paramTitle }}" (click)="globalService.scrollToTop()">View Details</a>
+      </div>
+      <div class="board">
+         <img src="assets/ComingSoon.png" class="board-img">
+      </div>
+   </div>
+</div>
+
+<div id="section-three">
+   <h2 id="closing-header">Growth is a never ending journey.</h2>
+   <p id="closing-p">As my career and knowledge progresses, you can expect this page to grow.</p>
+</div>
