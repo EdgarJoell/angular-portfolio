@@ -148,4 +148,8 @@ img {
       width: 80%;
       margin: 0 auto 3% auto;
    }
+
+   a {
+      font-size: 12pt;
+   }
 }
