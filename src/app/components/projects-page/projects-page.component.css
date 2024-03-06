@@ -1,4 +1,9 @@
 /* Projects Section */
+a {
+   width: 50%;
+   padding: 3% 0;
+}
+
 #section-one {
    width: 100%;
    padding-bottom: 20%;
@@ -55,23 +60,6 @@
    color: #033576;
 }
 
-.board-btn {
-   max-width: 25rem;
-   width: 100%;
-   height: 100%;
-   font-size: 22pt;
-   color: white;
-   background-color: #033576;
-   border-radius: 40px;;
-}
-
-.github-link {
-   max-width: 30rem;
-   width: 70%;
-   padding: 50% auto;
-   height: 8vh;
-}
-
 .board-img {
    width: 90%;
    margin: auto;
@@ -79,6 +67,7 @@
 
 .board {
    max-width: 34rem;
+   min-height: 35rem;
    width: 30%;
    padding: 1.5% 5%;
    border-radius: 50px;
@@ -116,7 +105,7 @@
    }
 
    #projects-p {
-      font-size: 16pt;
+      font-size: 14pt;
    }
 
    #projects-board {
@@ -127,6 +116,7 @@
 
    .board {
       width: 80%;
+      min-height: 350px;
    }
 
    .board-btn {
@@ -147,6 +137,10 @@
 
    .board-paragraph {
       font-size: 14pt;
+   }
+
+   .board-img {
+      width: 75%;
    }
 }
 
@@ -176,11 +170,20 @@
    }
 
    .board-heading {
-      font-size: 24pt;
+      font-size: 28pt;
    }
 
    .board-paragraph {
-      font-size: 14pt;
+      font-size: 20pt;
+   }
+
+   .board {
+      min-height: 425px;
+      margin: 5% auto;
+   }
+
+   .board-img { 
+      width: 75%;
    }
 }
 

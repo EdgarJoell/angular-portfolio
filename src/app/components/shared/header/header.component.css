@@ -102,3 +102,18 @@ li:hover {
       font-size: 12pt;
    }
 }
+
+a:link {
+   text-decoration: none;
+   color: #033576;
+ }
+ 
+ a:visited {
+   text-decoration: none;
+   color: #033576;
+ }
+ 
+ a:active {
+   text-decoration: underline;
+   color: #033576;
+ }

@@ -29,32 +29,6 @@
    margin-top: 3rem;
 }
 
-a {
-   width: 20%;
-   margin: auto;
-   max-width: 200px;
-   margin: auto;
-   background-color: #033576;
-   color: white;
-   border-radius: 30px;
-   padding: 1%;
-   text-align: center;
-   font-size: 18pt;
-   border: 2px black solid;
-   transition-property: background-color;
-   transition-duration: 250ms;
-   transition-timing-function: ease-out;
-}
-
-a:hover {
-   background-color: white;
-   color: #033576;
-   text-decoration: none;
-   transition-property: background-color;
-   transition-duration: 250ms;
-   transition-timing-function: ease-out;
-}
-
 @keyframes fade-in {
    from { scale: 0; opacity: 0 }
    to { scale: 1; opacity: 1 }
